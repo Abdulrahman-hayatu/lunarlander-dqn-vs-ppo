@@ -51,7 +51,7 @@ Best checkpoint of each run, deterministic policy, seed 1000 (different from the
 | PPO | 134.9 | 115.7 | 42% | 548 |
 
 - DQN scored about 108 points higher. The standard errors of the two means are about 8 and 12, so the gap is much larger than episode-to-episode noise. That noise is the only variation I measured: each algorithm was trained once.
-- PPO's episodes last more than twice as long as DQN's. I did not investigate why.
+- PPO's episodes last more than twice as long as DQN's.
 - The checkpoint is chosen from noisy 5-episode evaluations, so the training-time numbers are optimistic. The table uses the 100-episode re-score instead.
 
 ### Reward curves
