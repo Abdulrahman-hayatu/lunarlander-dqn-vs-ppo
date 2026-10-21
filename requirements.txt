@@ -1,6 +1,7 @@
-stable-baselines3[extra]
-gymnasium[box2d]
-gradio
-pandas
-matplotlib
-moviepy
+stable-baselines3[extra]==2.9.0
+gymnasium[box2d]==1.4.0
+gradio==6.30.0
+pandas==3.0.6
+matplotlib==3.11.2
+moviepy==2.2.1
+numpy==2.5.4
